@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1174419588518742
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4743992677772642}
+  - 114: {fileID: 114215694164761187}
+  m_Layer: 0
+  m_Name: AtlasMainMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4743992677772642
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1174419588518742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114215694164761187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1174419588518742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 46776d9373b2b21459fe73e8e5727043, type: 2}
+  sprites:
+  - name: Blur
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 599
+      width: 343
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 599
+      width: 343
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop
+    outer:
+      serializedVersion: 2
+      x: 129
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 129
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Profile
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Inbox
+    outer:
+      serializedVersion: 2
+      x: 258
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 258
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Clans
+    outer:
+      serializedVersion: 2
+      x: 129
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 129
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black
+    outer:
+      serializedVersion: 2
+      x: 485
+      y: 1007
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 486
+      y: 1008
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Leaderboards
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Chat
+    outer:
+      serializedVersion: 2
+      x: 258
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 258
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Menu
+    outer:
+      serializedVersion: 2
+      x: 387
+      y: 960
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 387
+      y: 960
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Back
+    outer:
+      serializedVersion: 2
+      x: 129
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 129
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: loading
+    outer:
+      serializedVersion: 2
+      x: 452
+      y: 992
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 452
+      y: 992
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rounded-black
+    outer:
+      serializedVersion: 2
+      x: 485
+      y: 1012
+      width: 12
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 488
+      y: 1015
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FacebookFacePileIcon
+    outer:
+      serializedVersion: 2
+      x: 387
+      y: 831
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 387
+      y: 831
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LoginWithFacebook
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 548
+      width: 256
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 548
+      width: 256
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: badge
+    outer:
+      serializedVersion: 2
+      x: 387
+      y: 927
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 387
+      y: 927
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Avatar
+    outer:
+      serializedVersion: 2
+      x: 387
+      y: 702
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 387
+      y: 702
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: XP-empty
+    outer:
+      serializedVersion: 2
+      x: 420
+      y: 927
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 433
+      y: 940
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: XP-full
+    outer:
+      serializedVersion: 2
+      x: 453
+      y: 927
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 466
+      y: 940
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Play
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rounded-white
+    outer:
+      serializedVersion: 2
+      x: 498
+      y: 1012
+      width: 12
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 503
+      y: 1017
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Screenshot-icon
+    outer:
+      serializedVersion: 2
+      x: 258
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 258
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1174419588518742}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

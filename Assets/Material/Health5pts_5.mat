@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Health5pts
+  m_Shader: {fileID: 4800000, guid: f6dd84e99263d4a4bb0949db78d4e6f8, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 5f92ef5060a08224e8a372a9b3898fae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Cutoff
+      second: 0.33582088
+    - first:
+        name: _Shininess
+      second: 0.7
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _EmissionLM
+      second: 0
+    - first:
+        name: _AlphaMin
+      second: 0.49
+    - first:
+        name: _AlphaMax
+      second: 0.54
+    - first:
+        name: _ShadowAlphaMin
+      second: 0.28
+    - first:
+        name: _ShadowAlphaMax
+      second: 0.54
+    - first:
+        name: _ShadowOffsetU
+      second: 0
+    - first:
+        name: _ShadowOffsetV
+      second: 0
+    - first:
+        name: _Outline_Size
+      second: 0.01
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _Emission
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _ShadowColor
+      second: {r: 0.3, g: 0.3, b: 0.3, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - first:
+        name: _EmisColor
+      second: {r: 0.2, g: 0.2, b: 0.2, a: 0}
+    - first:
+        name: _Outline_Color
+      second: {r: 1, g: 1, b: 1, a: 1}
