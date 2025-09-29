@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  tags:
+  - Avatar
+  - HitArea
+  - Robot
+  - Prop
+  - Wood
+  - Metal
+  - Water
+  - Sand
+  - Stone
+  - SolidWood
+  - Weapon
+  - MovableObject
+  - Grass
+  - Sticky
+  - DynamicProp
+  - Cement
+  - SoundArea
+  - 
+  Builtin Layer 0: Default
+  Builtin Layer 1: TransparentFX
+  Builtin Layer 2: Ignore Raycast
+  Builtin Layer 3:
+  Builtin Layer 4: Water
+  Builtin Layer 5:
+  Builtin Layer 6:
+  Builtin Layer 7:
+  User Layer 8: GloballyLit
+  User Layer 9: GloballyLit_Reflect
+  User Layer 10: GloballyLit_Refract
+  User Layer 11: GloballyLit_ReflectRefract
+  User Layer 12: GloballyLit_DynamicReflectRefract
+  User Layer 13: LocallyLit
+  User Layer 14: LocallyLit_Reflect
+  User Layer 15: LocallyLit_Refract
+  User Layer 16: LocallyLit_ReflectRefract
+  User Layer 17: LocallyLit_DynamicReflectRefract
+  User Layer 18: LocalPlayer
+  User Layer 19: Weapons
+  User Layer 20: RemotePlayer
+  User Layer 21: Props
+  User Layer 22: Trigger
+  User Layer 23: Teleporter
+  User Layer 24: RemoteProjectile
+  User Layer 25: Controller
+  User Layer 26: LocalProjectile
+  User Layer 27: MeshGUI
+  User Layer 28: Raidbot
+  User Layer 29: Ragdoll
+  User Layer 30: NGUI
+  User Layer 31:

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TempleOfTheRaven-StoneDoors_Diffuse
+  m_Shader: {fileID: 4800000, guid: 81e8763a70c39414ebe2fc845c3353f5, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 5825f29f1b6a25149a992f91033e11f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Detail
+      second:
+        m_Texture: {fileID: 2800000, guid: 9ea5a28f73afca34889b9e5a9835c925, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _OneMinusReflectivity
+      second: 0.05
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _DirectionUv
+      second: {r: 1.623, g: 2.474, b: 1.3, a: -1.3}
+    - first:
+        name: _TexAtlasTiling
+      second: {r: 8, g: 8, b: 6, a: 6}

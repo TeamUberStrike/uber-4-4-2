@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EasyWater
+  m_Shader: {fileID: 4800000, guid: 42a352039b3e2e842ac36d310a3d6894, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Reflection
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture1
+      second:
+        m_Texture: {fileID: 2800000, guid: d170ac2a918a56f4e8d568b9941ca332, type: 3}
+        m_Scale: {x: 16, y: 16}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap1
+      second:
+        m_Texture: {fileID: 2800000, guid: 6775064c2487aaa4faa2a51ded52f3e1, type: 3}
+        m_Scale: {x: 8, y: 8}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture2
+      second:
+        m_Texture: {fileID: 2800000, guid: d170ac2a918a56f4e8d568b9941ca332, type: 3}
+        m_Scale: {x: 16, y: 16}
+        m_Offset: {x: 0.5, y: 0.3}
+    - first:
+        name: _BumpMap2
+      second:
+        m_Texture: {fileID: 2800000, guid: edf7e7ed2d06ded4486770378a81af43, type: 3}
+        m_Scale: {x: 16, y: 16}
+        m_Offset: {x: 0.5, y: 0.3}
+    - first:
+        name: _DistortionMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 645200fd529386f44ba8c030119f739f, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0.3, y: 0.3}
+    m_Floats:
+    - first:
+        name: _Reflection
+      second: 0.1826923
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Shininess
+      second: 1.5
+    - first:
+        name: _MainTexSpeed
+      second: 0.2
+    - first:
+        name: _Bump1Speed
+      second: 0.2
+    - first:
+        name: _Texture2Speed
+      second: -0.2
+    - first:
+        name: _Bump2Speed
+      second: -0.2
+    - first:
+        name: _DistortionSpeed
+      second: 0.05
+    - first:
+        name: _DistortionPower
+      second: 0.02
+    - first:
+        name: _Specular
+      second: 1.2
+    - first:
+        name: _Gloss
+      second: 0.5
+    - first:
+        name: _Opacity
+      second: 0.8
+    - first:
+        name: _ReflectPower
+      second: 0.8
+    - first:
+        name: _OverallOpacity
+      second: 0.28846154
+    - first:
+        name: _Opacidade
+      second: 0.4134615
+    - first:
+        name: _teste
+      second: 0
+    - first:
+        name: _Teste2
+      second: 0
+    - first:
+        name: _Teste3
+      second: 0
+    - first:
+        name: _DistortSpeed
+      second: 0.017307693
+    - first:
+        name: _DistortPower
+      second: 0.003076923
+    - first:
+        name: _Angulo
+      second: 3.4230769
+    - first:
+        name: _BumpForce
+      second: 0.3653846
+    - first:
+        name: _testeRefl
+      second: 0.1923077
+    - first:
+        name: _testeX
+      second: 0.036923077
+    - first:
+        name: _testeY
+      second: 0.018461538
+    - first:
+        name: _testeZ
+      second: 0.1923077
+    - first:
+        name: _testeW
+      second: -0.076923065
+    - first:
+        name: _FrezPow
+      second: 0.25
+    - first:
+        name: _FrezFalloff
+      second: 4
+    - first:
+        name: _Metalics
+      second: 0.5
+    - first:
+        name: _EdgeAlpha
+      second: 0
+    - first:
+        name: _testeadd
+      second: 5
+    - first:
+        name: _ReflUV
+      second: 1.2692307
+    - first:
+        name: _ReflUVadd
+      second: 0
+    - first:
+        name: _ReflFresnel
+      second: 0.115384616
+    - first:
+        name: _Add
+      second: 4.8076925
+    - first:
+        name: _RangeX
+      second: 0.5
+    - first:
+        name: _Range
+      second: 5
+    - first:
+        name: _Rangew
+      second: 1
+    - first:
+        name: _RangeZ
+      second: 10
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.25373137, g: 0.22753486, b: 0.21775453, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _teste
+      second: {r: -1, g: -1, b: -1, a: -5}
+    - first:
+        name: _Add
+      second: {r: 1, g: 1, b: 0, a: 0}
+    - first:
+        name: _TextureSpeed
+      second: {r: 0.05, g: -0.01, b: 0.01, a: -0.003}
+    - first:
+        name: _Speeds
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _Animations
+      second: {r: 0.1, g: -0.01, b: 0.01, a: -0.005}
+    - first:
+        name: _Sub
+      second: {r: 1, g: 90, b: 1, a: 1}
+    - first:
+        name: _Mult
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - first:
+        name: _Teste
+      second: {r: 1.07, g: 1.1, b: -0.52, a: -0.15}
